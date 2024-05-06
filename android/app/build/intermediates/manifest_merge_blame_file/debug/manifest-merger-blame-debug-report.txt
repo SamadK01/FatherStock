@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fatherstock.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/khushmeetsingh/fatherstock/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/khushmeetsingh/fatherstock/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.37.0] /Users/khushmeetsingh/.gradle/caches/transforms-2/files-2.1/d0da2ad7061def08658acb2e0f363988/flipper-0.37.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.37.0] /Users/khushmeetsingh/.gradle/caches/transforms-2/files-2.1/d0da2ad7061def08658acb2e0f363988/flipper-0.37.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[:react-native-community_netinfo] /Users/khushmeetsingh/fatherstock/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+14-->[:react-native-community_netinfo] /Users/khushmeetsingh/fatherstock/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+15
+16    <application
+16-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:6:5-36:19
+17        android:name="com.fatherstock.app.MainApplication"
+17-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:7:7-38
+18        android:allowBackup="false"
+18-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:11:7-34
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.3.2] /Users/khushmeetsingh/.gradle/caches/transforms-2/files-2.1/d7a89df0585f83b71c035eee8b67a804/core-1.3.2/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:9:7-41
+22        android:label="@string/app_name"
+22-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:8:7-39
+23        android:roundIcon="@mipmap/ic_launcher"
+23-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:10:7-46
+24        android:theme="@style/AppTheme"
+24-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:12:7-38
+25        android:usesCleartextTraffic="true" >
+25-->/Users/khushmeetsingh/fatherstock/android/app/src/debug/AndroidManifest.xml:7:18-53
+26        <activity
+26-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:13:7-26:18
+27            android:name="com.fatherstock.app.MainActivity"
+27-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:14:9-37
+28            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+28-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:16:9-86
+29            android:exported="true"
+29-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:19:9-32
+30            android:label="@string/app_name"
+30-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:15:9-41
+31            android:launchMode="singleTask"
+31-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:17:9-40
+32            android:windowSoftInputMode="adjustResize" >
+32-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:18:9-51
+33            <intent-filter>
+33-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:20:9-25:25
+34                <action android:name="android.intent.action.VIEW" />
+34-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:21:11-63
+34-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:21:19-60
+35
+36                <category android:name="android.intent.category.DEFAULT" />
+36-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:22:11-70
+36-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:22:21-67
+37                <category android:name="android.intent.category.BROWSABLE" />
+37-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:23:11-72
+37-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:23:21-69
+38
+39                <data android:scheme="com.fatherstock.app" />
+39-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:24:11-56
+39-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:24:17-53
+40            </intent-filter>
+41        </activity>
+42        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+42-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:28:7-84
+42-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:28:17-81
+43        <activity
+43-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:29:7-34:18
+44            android:name="com.fatherstock.app.SplashActivity"
+44-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:29:17-47
+45            android:label="@string/app_name"
+45-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:29:83-115
+46            android:theme="@style/SplashTheme" >
+46-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:29:48-82
+47            <intent-filter>
+47-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:30:9-33:25
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:31:11-63
+48-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:31:19-60
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:32:11-71
+50-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:32:21-68
+51            </intent-filter>
+52        </activity>
+53
+54        <meta-data
+54-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:35:7-112
+55            android:name="com.bugsnag.android.API_KEY"
+55-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:35:18-60
+56            android:value="ac5ac92fa6207d3ba7d06b9d29268ad1" />
+56-->/Users/khushmeetsingh/fatherstock/android/app/src/main/AndroidManifest.xml:35:61-109
+57
+58        <provider
+58-->[:react-native-image-picker] /Users/khushmeetsingh/fatherstock/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+59            android:name="com.imagepicker.ImagePickerProvider"
+59-->[:react-native-image-picker] /Users/khushmeetsingh/fatherstock/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
+60            android:authorities="com.fatherstock.app.imagepickerprovider"
+60-->[:react-native-image-picker] /Users/khushmeetsingh/fatherstock/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-71
+61            android:exported="false"
+61-->[:react-native-image-picker] /Users/khushmeetsingh/fatherstock/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+62            android:grantUriPermissions="true" >
+62-->[:react-native-image-picker] /Users/khushmeetsingh/fatherstock/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+63            <meta-data
+63-->[:react-native-image-picker] /Users/khushmeetsingh/fatherstock/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:70
+64                android:name="android.support.FILE_PROVIDER_PATHS"
+64-->[:react-native-image-picker] /Users/khushmeetsingh/fatherstock/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+65                android:resource="@xml/imagepicker_provider_paths" />
+65-->[:react-native-image-picker] /Users/khushmeetsingh/fatherstock/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+66        </provider>
+67    </application>
+68
+69</manifest>
